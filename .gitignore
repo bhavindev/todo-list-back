@@ -1,0 +1,36 @@
+# Composer dependencies
+/vendor/
+
+# Environment files
+.env
+.env.*
+
+# Cache + logs
+/storage/
+bootstrap/cache/
+*.log
+
+# IDE/editor junk
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PHPStorm & other editors
+*.iml
+*.sublime-*
+
+# Composer lock if you don’t want to lock deps (optional)
+# composer.lock
+
+# Node stuff if project includes frontend
+/node_modules/
+public/hot
+public/storage
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
